@@ -157,7 +157,7 @@ interface KeyboardAwareState {
   keyboardSpace: number
 }
 
-declare class ScrollableComponent<P, S> extends React.Component<P, S> {
+export declare class ScrollableComponent<P, S> extends React.Component<P, S> {
   getScrollResponder: () => void
   scrollToPosition: (x: number, y: number, animated?: boolean) => void
   scrollToEnd: (animated?: boolean) => void
